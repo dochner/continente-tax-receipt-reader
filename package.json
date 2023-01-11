@@ -1,0 +1,24 @@
+{
+  "name": "continente-tax-receipt-reader",
+  "version": "1.0.0",
+  "description": "Continente Tax Receipt Reader",
+  "scripts": {
+    "start": "http-server -p 3000 ."
+  },
+  "keywords": [
+    "tax receipt",
+    "tesseract ocr"
+  ],
+  "author": {
+    "name": "Douglas Ochner",
+    "email": "douglas.ochner@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "tesseract.js": "^4.0.2",
+    "tesseract.js-core": "^4.0.2"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
